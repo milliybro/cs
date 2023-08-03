@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.navbar {
+  background-color: #1c1e53 !important;
+}
+.navbar .navbar-brand {
+  font-size: 32px;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url(../../images/home/hamburger.svg);
+  border: none;
+}
+.navbar ul {
+  gap: 40px;
+  padding-right: 40px;
+}
+.navbar button:hover {
+  background: #fff;
+}
+.navbar button:hover a {
+  color: #1c1e53 !important;
+}
+
+#our {
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+#our .our .row h6 {
+  color: var(--dark-blue, #282938);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+}
+#our .our .row h1 {
+  color: var(--dark-blue, #282938);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px; /* 137.037% */
+  padding-top: 8px;
+  padding-bottom: 31px;
+}
+#our .our .row .our__parag {
+  color: var(--dark-blue, #282938);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  width: 68%;
+}
+
+#goal {
+  padding-bottom: 128px;
+}
+#goal .goal .row {
+  background-color: #f4f5f5;
+  padding: 96px 109px 96px 80px;
+}
+#goal .goal .row h3 {
+  color: var(--dark-blue, #282938);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+#goal .goal .row p {
+  color: var(--dark-blue, #282938);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding-top: 16px;
+}
+
+#team {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: var(--grey, #f4f6fc);
+}
+#team .team h1 {
+  color: var(--dark-blue, #282938);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+#team .team .row .col-12 .team__card {
+  background-color: #fff;
+  padding: 48px 64px 32px 64px;
+}
+#team .team .row .col-12 .team__card h6 {
+  padding-top: 30px;
+  padding-bottom: 2px;
+  color: var(--b, #1d2130);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
+}
+#team .team .row .col-12 .team__card p {
+  color: var(--b, #1d2130);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+footer {
+  background: #1c1e53 !important;
+  padding-top: 102px;
+  padding-bottom: 92px;
+}
+footer .footer .row .logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+footer .footer .row p {
+  padding-top: 24px;
+  padding-bottom: 43px;
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  width: 60%;
+}
+footer .footer .row h2 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+footer .footer .row img {
+  padding-right: 25px;
+}
+footer .footer .foo__contact {
+  background: var(--yellow, #fcd980);
+  padding: 18px 37px;
+}
+footer .footer .foo__contact h5 {
+  color: var(--dark-blue, #282938);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+}

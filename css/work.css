@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+html {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.navbar {
+  background-color: #1c1e53 !important;
+}
+.navbar .navbar-brand {
+  font-size: 32px;
+}
+.navbar li a {
+  color: #fff !important;
+}
+.navbar .navbar-toggler-icon {
+  background-image: url(../../images/home/hamburger.svg);
+  border: none;
+}
+.navbar ul {
+  gap: 40px;
+  padding-right: 40px;
+}
+.navbar button:hover {
+  background: #fff;
+}
+.navbar button:hover a {
+  color: #1c1e53 !important;
+}
+
+#portfolio {
+  background: var(--grey, #f4f6fc);
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+#portfolio .portfolio h6 {
+  color: var(--dark-blue, #282938);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+#portfolio .portfolio h1 {
+  color: var(--dark-blue, #282938);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+  padding-top: 6px;
+  padding-bottom: 24px;
+}
+#portfolio .portfolio .header__social {
+  padding-top: 32px;
+  gap: 25px;
+}
+
+#tab {
+  padding-top: 96px;
+  padding-bottom: 128px;
+}
+#tab .tab .tabs-1 .row .col-12 {
+  padding-bottom: 64px;
+}
+#tab .tab .tabs-1 .row .col-12 > img {
+  width: 100%;
+}
+#tab .tab .tabs-1 .row .col-12 h3 {
+  padding-top: 12px;
+  padding-bottom: 6px;
+  color: var(--dark-blue, #282938);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 147.368% */
+}
+#tab .tab .tabs-1 .row .col-12 p {
+  color: var(--dark-blue, #282938);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding-bottom: 12px;
+  opacity: 0.7;
+}
+#tab .tab .tabs-1 .nav-pills {
+  display: flex;
+  justify-content: center;
+}
+#tab .tab .tabs-1 .nav-link {
+  color: var(--dark-blue, #282938);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 177.778% */
+}
+#tab .tab .tabs-1 .nav-link.active {
+  opacity: 0.7;
+  color: var(--royal-blue, #2405f2);
+}
+#tab .tab .tabs-1 .nav-pills .nav-link.active {
+  background-color: transparent;
+}
+
+footer {
+  background: #1c1e53 !important;
+  padding-top: 102px;
+  padding-bottom: 92px;
+}
+footer .footer .row .logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+footer .footer .row p {
+  padding-top: 24px;
+  padding-bottom: 43px;
+  color: var(--white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  width: 60%;
+}
+footer .footer .row h2 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+footer .footer .row img {
+  padding-right: 25px;
+}
+footer .footer .foo__contact {
+  background: var(--yellow, #fcd980);
+  padding: 18px 37px;
+}
+footer .footer .foo__contact h5 {
+  color: var(--dark-blue, #282938);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+}

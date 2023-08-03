@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Gullar online do'koni</title>
+   <link rel="stylesheet" href="sass/vendors/bootstrap.min.css" />
+   <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+   <link rel="stylesheet" href="css/home.min.css">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg bg-body-dark fixed-top">
+         <div class="container-lg">
+            <a class="navbar-brand text-dark fw-bold " href="index.html"><img src="images/home/logo.svg">
+               MilliyFlower.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+               aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="offcanvasNavbar"
+               aria-labelledby="offcanvasNavbarLabel">
+               <div class="offcanvas-header">
+                  <h5 class="offcanvas-title text-dark" id="offcanvasNavbarLabel">MilliyFlower.</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               </div>
+               <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-dark">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Collection</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="work.html">Shop</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Product</a>
+                     </li>
+                  </ul>
+                  <button class="btn btn-outline-light rounded-5 px-4" type="submit"><a href="contact.html"
+                        class="text-light text-decoration-none">Contact</a></button>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <main>
+      <section id="hero">
+         <div class="container hero">
+            <div class="row d-flex align-items-center">
+               <div class="col-12 col-lg-6">
+                  <h6>UYINGIZ UCHUN DEKORATSIYA</h6>
+                  <h1 class="">Uyingizni tabiiy dizayn bilan <br> <span> his eting.</span></h1>
+                  <div class="hero__btn">
+                     <button class="btn-1">Discover</button>
+                     <button class="btn-2"><a href="#"><img src="images/home/watch.svg">Watch video</a></button>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6">
+                  <img src="images/home/herobg.png" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="noyob">
+         <div class="container noyob">
+            <div class="row">
+               <div class="col-12 col-lg-6">
+                  <div class="img">
+                     <img src="images/home/flower1.jpg">
+                  </div>
+               </div>
+               <div class="col-12 col-lg-6">
+                  <h2>Dunyodagi <br> <span> noyob gullar </span> <br> haqida bilarmidingiz</h2>
+                  <p>
+                     Gullar insoniyat paydo bo'lgandan boshlab mavjud bo'lib, ular go'zallik razmi sifatida tanilgan.
+                  </p>
+                  <button class="btn-1">
+                     Read more
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="deco">
+         <div class="container deco">
+            <div class="row">
+               <div class="col-12 col-lg-6">
+                  <h2>Uyingizni turli xil <br> <span> gullar bilan bezang </span>
+                  </h2>
+                  <p>
+                     Gullar cheksiz ko'rinadigan kombinatsiyalarni taqdim etadi. Ularning o'lchamlari bir necha daqiqada gullab-yashnashidan tortib, ulkan gullargacha.
+                  </p>
+                  <button class="btn-1">
+                     Read more
+                  </button>
+               </div>
+               <div class="col-12 col-lg-6">
+                  <div class="img">
+                     <img src="images/home/deco.jpg">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="carousel">
+         <div class="container">
+            <div class="owl-carousel owl-theme row">
+               <div class="col-1 col-md-2 col-lg-4 col-xl-4">
+                  <div class="item__hero">
+                     <img class="w-100" src="images/home/herobg.jpg" alt="">
+                  </div>
+                  <div class="item__content">
+                     <p class="">Jasmine Flowers</p>
+                     <span>$258</span>
+                  </div>
+               </div>
+               <div class="col-1 col-md-2 col-lg-4 col-xl-4">
+                  <div class="item__hero">
+                     <img class="w-100" src="images/home/flower1.jpg" alt="">
+                  </div>
+                  <div class="item__content">
+                     <p class="">Jasmine Flowers</p>
+                     <span>$258</span>
+                  </div>
+               </div>
+               <div class="col-1 col-md-2 col-lg-4 col-xl-4">
+                  <div class="item__hero">
+                     <img class="deco-img w-100 h-75" src="images/home/herobg.jpg" alt="">
+                  </div>
+                  <div class="item__content">
+                     <p class="">Jasmine Flowers</p>
+                     <span>$258</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script src="js/bootstrap.bundle.min.js"></script>
+      </section>
+      <section id="home">
+         <div class="container home">
+            <div class="row">
+               <div class="col-12 col-lg-6">
+                  <h2>Uyingizni turli xil <br> <span> gullar bilan bezang </span>
+                  </h2>
+                  <p>
+                     Gullar cheksiz ko'rinadigan kombinatsiyalarni taqdim etadi. Ularning o'lchamlari bir necha daqiqada gullab-yashnashidan tortib, ulkan gullargacha.
+                  </p>
+                  <button class="btn-1">
+                     Read more
+                  </button>
+               </div>
+               <div class="col-12 col-lg-6">
+                  <div class="img">
+                     <img src="images/home/deco.jpg">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer id="footer">
+      <div class="container footer">
+        <div class="footer__left">
+          <div class="footer__left__hero">
+            <img src="images/home/logo.svg">
+            <h3>© Copyright MIlliyBro 2022</h3>
+            <p>+998-904-969-007</p>
+            <p>Tashkent, Uzbekistan</p>
+            <p>milliyflowers@gmail.com</p>
+          </div>
+          <div class="footer__left__link">
+            <ul>
+              <h3>Quicklinks</h3>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="pricing.html">Shop</a></li>
+              <li><a href="work.html">Collection</a></li>
+              <li><a href="blog.html">Product</a></li>
+            </ul>
+            <div class="footer__left__link__social">
+              <h3>Connect</h3>
+              <img src="images/home/facebook.svg">
+              <img src="images/home/twitter.svg">
+              <img src="images/home/linkedin.svg">
+            </div>
+          </div>
+        </div>
+        <div class="footer__right">
+          <h2>Subscribe to get Latest Updates and News</h2>
+          <div class="footer__right__mail">
+            <input type="text" placeholder="Yourmail@gmail.com">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
